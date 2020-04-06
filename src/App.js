@@ -9,7 +9,7 @@ import Pricing from "./components/Pricing";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 import "./App.css";
-
+///comment......
 export default class App extends Component {
   render() {
     return (
