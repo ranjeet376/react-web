@@ -1,0 +1,373 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/*.......... color .......*/
+:root {
+  --main-btn-color: #047bd5;
+  --main-input-color: #d3d3d3;
+}
+/*............. Navbar ........*/
+.navbar{
+  float: right;
+  margin-top: -120px;
+  margin-right: 100px;
+  clear: both;
+  
+}
+.xce p{margin-right: 600px;
+  margin-top: 20px;
+  font-size: 25px;
+  }
+
+  .navbar-brand{
+  float: left !important;
+}
+.navbar .navbar-brand{
+  float: left !important;
+}
+/* ul li{
+  text-decoration: none;
+  display: inline;
+  padding: 0 1rem;
+  
+ 
+}
+ul li:hover{
+  border: 1px solid grey;
+  
+}
+
+.nav{
+  clear:both;
+  
+}
+
+.xce{float:left;
+     margin: 45px 0 0 180px;}
+
+.list{float:right;
+      margin:55px 120px 0 40px;} */
+/*.......X...... Navbar .....X...*/
+
+/*............. NavbarContainer ........*/
+.btn1{
+  background-color: #e84f41;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  padding-top: 2px;
+}
+.footer{
+  margin-top: 10%;
+}
+/*.......X...... NavbarContainer .....X...*/
+
+/* ............. Form ........ */
+/*.main{
+  clear:both;
+  overflow:auto;
+}
+input{
+  height: 30px;
+  margin: 5px 0;
+  border-radius: 3px;
+  border: none;
+  background-color:#D3D3D3;
+}
+.type{
+  height: 30px;
+  width: 178px;
+  margin: 5px 0;
+  border-radius: 3px;
+  border: none;
+  background-color: #D3D3D3;
+  color: gray;
+  padding-left: 6px;
+}
+.btn{
+  height: 30px;
+  width: 178px;
+  margin: 5px 0;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  background-color:var(--main-btn-color);
+   -webkit-box-shadow: 0 8px 6px -6px #047bd5;
+  -moz-box-shadow: 0 8px 6px -6px #047bd5;
+       box-shadow: 0 8px 6px -6px #047bd5;
+}
+.btn1{
+  background-color: #e84f41;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 80px;
+  border-radius: 3px;
+}
+.form{
+  border: 1px solid gray;
+  height: 300px;
+  width: 240px;
+  margin: 0 20px;
+  border-radius: 3px;
+  float: right;
+}
+.text{
+  float:left;
+}
+.form1{
+  padding-left: 28px;
+  padding-top: 20px;
+ 
+}
+.sign{
+  font-weight: normal;
+  letter-spacing: initial;
+}
+.full{
+  padding-left: 10px;
+} */
+/* ...X.......... Form .....X... */
+/* ..........Design............... */
+
+.pt-10 {
+  padding-top: 3.5% !important;
+}
+.design1{
+  margin-top: 10%;
+}
+/* .app{
+padding-left: 16px;
+} */
+
+/* ...X.......Design.......X........ */
+
+/* ..........Design2............... */
+.design2{
+  margin-top: 10%;
+}
+.app-2 {
+  margin-left: 50px;
+}
+.app-2 .row{
+  margin-left: 60px;
+}
+/* ...X.......Design.......X........ */
+
+/* ..........Features............. */
+.feature-main{
+  margin-top: 10%;
+}
+.container{
+  margin-top: 4rem ;
+}
+.app-feature{
+  font-size: 28px;
+  margin-top: 0px !important;
+}
+.feature{
+  color: gray;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.col h3{
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  
+}
+.container p{
+  color: lightgray;
+}
+/* ......X....Features.....X........ */
+
+/* ..........Review............. */
+.review-main {
+  text-align: center;
+  margin-top: 10%;
+}
+.mini-title {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: lightgray;
+}
+.title {
+  margin-top: -15px !important;
+}
+.review-text {
+  margin-top: -10px;
+}
+.review-garry {
+  padding-top: 0px;
+}
+.gary {
+  margin-top: -15px;
+}
+.star {
+  height: 30px;
+  width: 100px;
+  margin-top: 20px;
+}
+.Quotation {
+  height: 20px;
+  width: 30px;
+  margin-right: 40%;
+  margin-top: 20px;
+}
+/* ......X....Review.....X........ */
+
+/* ..........PRICING............. */
+.main-pricing {
+  text-align: center;
+  margin-top: 10%;
+}
+/* ..........CARD............. */
+.main-card {
+  display: inline-flex;
+  width: 45rem;
+}
+.card {
+  margin: 10px;
+}
+.card:hover .card-btn {
+  background-color: var(--main-btn-color);
+  -webkit-box-shadow: 0 8px 6px -6px #047bd5;
+  -moz-box-shadow: 0 8px 6px -6px #047bd5;
+  box-shadow: 0 8px 6px -6px #047bd5;
+}
+.card:hover {
+  border-color: var(--main-btn-color);
+}
+.number {
+  font-size: 25px;
+  color: var(--main-btn-color);
+}
+.dollar {
+  font-size: 11px;
+  padding-top: 1px;
+}
+.month {
+  font-size: 12px;
+}
+.card-btn {
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 3px 6px 3px 6px;
+}
+.btn-text {
+  font-size: 14px;
+}
+
+/* .....X.....CARD......X....... */
+
+/* ......X....PRICING.....X........ */
+
+/* ..........FAQ............. */
+.faq-main{
+  margin-top: 10%;
+}
+.mini-title,
+.title {
+  text-align: center;
+}
+.faq-text,
+.faq-text1 {
+  font-size: 11px;
+  color: lightgray;
+}
+.faq-main li {
+  font-size: 12px;
+}
+.faq-text1 {
+  margin-top: -26px;
+}
+.faq-list {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+ul li {
+  list-style: none;
+}
+hr {
+  width: 80%;
+}
+.faq-plus {
+  /* padding-left: 72.5%; */
+  border: none;
+  background: none;
+  font-size: 22px;
+  display: inline-block;
+  margin-left: 72%;
+}
+/* ....X......FAQ.......X...... */
+
+/* ..........Footer............. */
+.footer{
+  margin-top: 10%;
+}
+.footer-font {
+  font-size: 24px;
+  padding: -2px 0px -2px 0px;
+}
+.footer-smallfont {
+  font-size: 13px;
+  
+}
+.footer-text {
+  margin-top: 75px;
+  padding-left:12% !important;
+  padding-right:10% !important;
+}
+.footer-container{
+  margin-top: 5%;
+}
+
+.fa {
+  color: blue;
+  padding: 0px 10px 0px 10px;
+}
+.font-aswm{
+  margin-top: 100px;
+  text-align: center;
+  font-style: 40px;
+}
+.Copyright{
+  font-size: 10px;
+  color: grey;
+}
+
+ 
+/* ..........form............. */
+.form {
+  height: 340px;
+  width: 280px;
+  border: 1px solid black;
+  padding: 20px 20px 10px 20px;
+  border-radius: 3px;
+}
+.form-text {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.form .formbtn {
+  border: none;
+  color: white;
+  background-color: var(--main-btn-color);
+  -webkit-box-shadow: 0 8px 6px -6px #047bd5;
+  -moz-box-shadow: 0 8px 6px -6px #047bd5;
+  box-shadow: 0 8px 6px -6px #047bd5;
+}
+.form input {
+  background-color: #dee0e3;
+}
+.form .select {
+  background-color: #dee0e3;
+}
+/* ....X......form.........X.... */
+/* ....X......Footer.......X...... */
